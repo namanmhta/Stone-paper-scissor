@@ -6,15 +6,6 @@ let score = JSON.parse(localStorage.getItem('score')) || {
   
   updateScoreElement();
   
-  /*
-  if (!score) {
-    score = {
-      wins: 0,
-      losses: 0,
-      ties: 0
-    };
-  }
-  */
 
 let isAutoplaying = false;
 let intervalid;
